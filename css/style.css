@@ -1,11 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+/* TEXTO */
+h1
+{
+font-family: 'Roboto Slab';
+font-size: 60px;
+text-align: center;
+border: 10px;
+border-color: black;
+}
+
+h2{
+  text-align: center;
+}
+
 body {
-    background-color:skyblue;
+    background-color:powderblue;
+    margin: 0;
+    padding: 0;
   }
 
-ul {
-list-style: circle;
-} 
 
-h1{
+
+.Descripcion {
+    padding: 40px;
+    border: 20px;
+    border-color: black;
+    background-color: rgb(211, 211, 211);
+  }
   
+section {
+  background-color:bisque;
+  text-align: center;
+  padding: 40px;
+  border: 10px;
+}
+
+a {
+  color: brown;
+  padding: 20px;
+}
+
+
+.ListServices{
+  font-family: Roboto Slab;
+  font-size: large;
+  list-style: auto;
+}
+
+
+/* IMAGENES */
+
+
+image{
+  padding: 5px;
+}
+
+.imgpersonal {
+  display: block;
+  width: 200px;
+  height:275px;
+  object-fit: fill;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.CNCFimg {
+  display: block;
+  width: 600px;
+  height:250px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: fill;
+}
+
+.TOOLIMG{
+  display: block;
+  width: 500px;
+  height:250px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: fill;
 }
